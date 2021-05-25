@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <title>Ai Object Finder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body background="https://wallpaperaccess.com/full/187161.jpg">
+  <center>
+    <h1 class="btn btn-info heading">AI Object Finder<br>
+      <p id="ph">The input namewhich you will give should match the names in CoCo model then
+        only it will detect</p>
+    </h1>
+    <br>
+    <h2 id="ob">Object Name :</h2>
+    <input type="text" id="name_input">
+    <br>
+    <br>
+    <button id="start" class="btn btn-success" onclick="start()">Start</button>
+    <br>
+    <br>
+    <span id="status" class="btn btn-danger"></span>
+    <span id="check" class="btn btn-warning"></span>
+    <div id="footer">Developed By Dhruv Gour</div>
+  </center>
+</body>
+
+</html>
